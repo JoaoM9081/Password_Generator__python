@@ -30,7 +30,6 @@ while True:
     except ValueError:
         # Tratando o erro se o usuário não inserir um número
         print('\033[1;31mEntrada inválida, tente digitar um número válido\033[m')
-        continue
     else:
         # Gerando e imprimindo as senhas
         for i in range(num_passwords):
